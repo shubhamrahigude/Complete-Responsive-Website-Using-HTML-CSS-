@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!----navbar-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./img/menu-btn.jpg" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>EXPLORE THE COLORFULL WORLD</h2>
+            <div class="line"></div>
+            <h1>A WONDERFULL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!--EVENTS-->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming events</h1>
+            <div class="line">
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./mount everest.jpg" alt="">
+                <h4>Everest Camp Treck</h4>
+                <p>On the summit of Everest, I had a feeling of great satisfaction to be first there.</p>
+                <a href="#" class="ctn">Know More</a>
+            </div>
+            <div class="col">
+                <img src="./globe_crop.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>"In every walk with nature, one receives far more than he seeks." </p>
+                <a href="#" class="ctn">Know More</a>
+            </div>
+        </div>
+    </section>
+    <section class="Explore">
+        <div class="Explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>"The journey of a thousand miles begins with a single step."</p>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATIONS</h1>
+                <div class="line"></div>
+                <p>"Travel makes one modest. You see what a tiny place you occupy in the world."</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src = "./img8.jpg" alt ="">
+                    <img src = "./imgg5.jpg" alt ="">
+                    <img src = "./imgg6.jpg" alt ="">
+                    <img src = "./imgg7.jpg" alt ="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>123 Fifth Avenue, NY 10160, New York, USA | Phone no:- 800-123-456 | Email:- ADVENTURE@gmail.com</p>
+        <p>Copyright © 2025 Outdoor ADVENTURE</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        
+        menuBtn.addEventListener('click',() =>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
